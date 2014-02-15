@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="LegacyCode">
+ <description>The legacy Code standard, PEAR with tabs and no _</description>
+
+ <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+
+ <rule ref="PEAR">
+  <!-- remove tab complains -->
+  <exclude name="Generic.WhiteSpace.DisallowTabIndent" />
+  <!-- remove switch case complains -->
+  <exclude name="PEAR.WhiteSpace.ScopeClosingBrace" />
+  <!-- remove function tabs -->
+  <exclude name="PEAR.WhiteSpace.ScopeIndent" />
+  <!-- remove class { in new line complains -->
+  <exclude name="PEAR.Classes.ClassDeclaration" />
+  <!-- function { in new line complains -->
+  <exclude name="PEAR.Functions.FunctionDeclaration" />
+ </rule>
+
+</ruleset>
