@@ -3,6 +3,8 @@
  <description>The legacy Code standard, PEAR with tabs and no _</description>
 
  <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+ <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+ <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
 
  <rule ref="PEAR">
   <!-- remove tab complains -->
